@@ -23,6 +23,6 @@ This project relies on the following:
    git clone https://github.com/TRACETook/TRACEAPI.git
 
 ### Contribution
- Contributors are welcom to contribute to building an open source supply chain security software with best interests in mind.
+ Contributors are welcome to contribute to building an open source supply chain security software with best interests in mind.
 
  
