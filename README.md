@@ -16,6 +16,9 @@ This project relies on the following:
    - Background service to handle asynchronous tasks.
 2. **[Anomaly detection module](https://github.com/TRACETool/AnomalyModule)**
    - Detect anomalies in repo activities.
+### Optional
+**[TRACEWeb](https://github.com/TRACETool/TRACEWeb)**
+   - A web interface for user to view reports. You can build your own web interface if required.
 
 ### Installation
 1. Clone the repository:
