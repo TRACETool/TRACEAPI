@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecurityWebhook.API", "SecurityWebhook.API\SecurityWebhook.API.csproj", "{F39746F8-B9EE-4CE7-9648-CD1DC271707D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{CF2894A0-C00B-4256-AF9E-8E8C2AC68240}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{4FCC1ED5-2004-4C8C-93DB-C0E6887A9A6A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecurityWebhook.Lib.Models", "SecurityWebhook.Lib.Models\SecurityWebhook.Lib.Models.csproj", "{4550BD75-8CBF-4E12-9446-12BC9FA25AB2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecurityWebhook.Lib.Repository", "SecurityWebhook.Lib.Repository\SecurityWebhook.Lib.Repository.csproj", "{9B9EDAAD-3315-4522-9379-846659DF4AF8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecurityWebhoook.Lib.Services", "SecurityWebhoook.Lib.Services\SecurityWebhoook.Lib.Services.csproj", "{00273534-6E91-470D-B0F8-8C319CDBB923}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F39746F8-B9EE-4CE7-9648-CD1DC271707D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F39746F8-B9EE-4CE7-9648-CD1DC271707D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F39746F8-B9EE-4CE7-9648-CD1DC271707D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F39746F8-B9EE-4CE7-9648-CD1DC271707D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4550BD75-8CBF-4E12-9446-12BC9FA25AB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4550BD75-8CBF-4E12-9446-12BC9FA25AB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4550BD75-8CBF-4E12-9446-12BC9FA25AB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4550BD75-8CBF-4E12-9446-12BC9FA25AB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B9EDAAD-3315-4522-9379-846659DF4AF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B9EDAAD-3315-4522-9379-846659DF4AF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B9EDAAD-3315-4522-9379-846659DF4AF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B9EDAAD-3315-4522-9379-846659DF4AF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00273534-6E91-470D-B0F8-8C319CDBB923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00273534-6E91-470D-B0F8-8C319CDBB923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00273534-6E91-470D-B0F8-8C319CDBB923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00273534-6E91-470D-B0F8-8C319CDBB923}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F39746F8-B9EE-4CE7-9648-CD1DC271707D} = {CF2894A0-C00B-4256-AF9E-8E8C2AC68240}
+		{4550BD75-8CBF-4E12-9446-12BC9FA25AB2} = {4FCC1ED5-2004-4C8C-93DB-C0E6887A9A6A}
+		{9B9EDAAD-3315-4522-9379-846659DF4AF8} = {4FCC1ED5-2004-4C8C-93DB-C0E6887A9A6A}
+		{00273534-6E91-470D-B0F8-8C319CDBB923} = {4FCC1ED5-2004-4C8C-93DB-C0E6887A9A6A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE6F2AC7-90D0-446E-AD70-4CB45EC6E772}
+	EndGlobalSection
+EndGlobal
